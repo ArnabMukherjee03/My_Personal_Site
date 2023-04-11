@@ -12,4 +12,20 @@
         font-size: 25px;
         justify-content: center;
       }
+      .ms-5{
+        margin-left: 0px!important;
+      }
+      /* About */
+      .rotate-img{
+        display: none;
+      }
+
+      .p-img{
+        height: 250px;
+
+      }
+
+      .portfolio-card{
+        width: 90%;
+      }
 }

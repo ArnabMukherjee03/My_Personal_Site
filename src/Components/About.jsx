@@ -16,7 +16,7 @@ const About = ()=>{
                          <div className="col-10 mx-auto">
                          <div className="row">
                             <div className="col-md-7 text-center pt-5 pt-lg-0 order-2 order-lg-2 d-flex justify-content-center flex-column">
-                            <p className="ms-lg-5">Hello everyone, Arnab this side.A budding software engineer from Dr. B.C Roy Engineering College,currently pursuing a Bachelor's degree in Computer Application.My experience has been primarily focused on building side projects using Web technologies such as HTML , CSS , JavaScript , Node.js , express.js and MongoDB. I have a strong foundation in programming languages such as C , Java , and JavaScript and currently Learning Python.I am always eager to learn new technologies and stay up-to-date with the latest trends in web development</p>
+                            <p className="ms-5 about-para">Hello everyone, Arnab this side.A budding software engineer from Dr. B.C Roy Engineering College,currently pursuing a Bachelor's degree in Computer Application.My experience has been primarily focused on building side projects using Web technologies such as HTML , CSS , JavaScript , Node.js , express.js and MongoDB. I have a strong foundation in programming languages such as C , Java , and JavaScript and currently Learning Python.I am always eager to learn new technologies and stay up-to-date with the latest trends in web development</p>
                             </div>
                             <div className="col-lg-5 order-1 order-lg-1 about-img">
                                 <img src={Aboutimg} className="img-fluid " alt="aboutimg"/>

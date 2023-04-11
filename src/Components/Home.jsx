@@ -38,7 +38,7 @@ const Home = ()=>{
                             </p>
                             </div>
                             <div className="col-lg-5 order-1 order-lg-3  header-img">
-                                <img src={Homeimg} className="img-fluid animated ms-lg-5" alt="home img"/>
+                                <img src={Homeimg} className="img-fluid animated ms-5 home-img " alt="home img"/>
                             </div>
                             </div>
                          </div>

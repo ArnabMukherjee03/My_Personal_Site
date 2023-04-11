@@ -97,6 +97,9 @@ li{
 .About-Head{
   color: #8a3ffc;
 }
+.about-para{
+  margin-left: 96px!important;
+}
 .about-img{
   /* border-radius: 20px; */
   position: relative;
@@ -110,6 +113,8 @@ li{
     right: -94px;
     width: 14rem;
 }
+
+
 
 .rotate-img img:nth-child(1){
   animation: rotate 9s linear infinite;
@@ -159,4 +164,51 @@ li{
   transition: all 0.2s ease-out;
   box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
   top: -4px;
+}
+
+/* Portfolio */
+.portfolio-card{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0px 0px 8px rgba(138, 63, 252, 0.3);
+  border-radius: 20px;
+}
+#Portfolio h1{
+  color: rgb(138, 63, 252);
+}
+.p-img{
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 5s;
+  border-radius: 20px;
+  box-shadow: 0px 0px 8px rgba(38, 38, 38, 0.1);
+  height: 350px;
+}
+.p-img:hover{
+  background-position: bottom;
+}
+
+.tech{
+  gap: 20px;
+}
+
+.tech p{
+  border: 1px solid #8a3ffc;
+  border-radius: 10px;
+  padding: 8px 6px;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+
+.code-btn{
+  text-decoration: none;
+  width: 100px;
+  background: #8a3ffc!important;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 8px;
+}
+.portfolio-card h3{
+  color: #8a3ffc;
 }

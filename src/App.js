@@ -6,7 +6,8 @@ import "./Css/responsive.css"
 import Nav from "./Components/Nav";
 import Home from './Components/Home';
 import About from "./Components/About";
-import Technology from "./Components/Technology/Technology"
+import Technology from "./Components/Technology/Technology";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 const App = ()=>{
   return (
@@ -15,6 +16,7 @@ const App = ()=>{
     <Home/>
     <About/>
     <Technology/>
+    <Portfolio/>
     </>
   )
 }
