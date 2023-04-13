@@ -1,4 +1,24 @@
 @media screen and (max-width:576px){
+    /* NavBar */
+    .nav-con{
+      width: 100%;
+    }
+    .navbar-brand{
+      margin-bottom: 0px;
+    }
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
+    .bar{
+      display: block;
+      width: 25px;
+      height: 2px;
+      margin: 5px auto;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      background-color: #000;
+    }
+
     /* Home */
     .top{
         font-size: 25px;
@@ -27,5 +47,22 @@
 
       .portfolio-card{
         width: 90%;
+      }
+
+      /* Contact Me */
+      .contact-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+      }
+      #Contact .col-6 {
+        width: 100%;
+      }
+      #Contact .col-6 p{
+        margin-left: 0px;
+        padding-left: 0px;
+        font-size: 13px;
+        align-items: flex-start;
       }
 }

@@ -5,7 +5,7 @@ import Manimg from "../Images/man.png"
 
 const About = ()=>{
     return(
-        <>
+        <div id="About">
         <div className="my-5">
                 <h1 className="text-center About-Head">About Me</h1>
                 <p className="text-center">My Introduction</p>
@@ -30,7 +30,7 @@ const About = ()=>{
                      </div>
                  </div>
            </section>
-        </>
+        </div>
     )
 }
 

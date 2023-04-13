@@ -212,3 +212,36 @@ li{
 .portfolio-card h3{
   color: #8a3ffc;
 }
+
+/* Contact Me */
+
+#Contact h1{
+  color: #8a3ffc;
+
+}
+
+.round{
+    background: #8a3ffc;
+    width: 150px;
+    color: #fff;
+    font-weight: 600;
+    height: 150px;
+    border-radius: 50%;
+}
+
+#Contact i{
+  font-size: 18px;
+  margin-right: 10px;
+  color: #8a3ffc;
+}
+
+/* Footer */
+.footer{
+  background: #8a3ffc;
+  height: 40px;
+  color: #fff;
+}
+
+.footer p{
+  margin-bottom: 0;
+}
